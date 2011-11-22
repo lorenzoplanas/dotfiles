@@ -1,0 +1,6 @@
+ClickToFocus
+StickyIcons
+DeskTopSize 1x1
+Style XTerm notitle
+Style *Chrome* notitle Maximize
+Style *Google* notitle Maximize
