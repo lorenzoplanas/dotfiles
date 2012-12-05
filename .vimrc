@@ -5,6 +5,7 @@ syntax enable
 colorscheme desert
 
 set number
+set ruler
 set columns=83
 set textwidth=79
 set tabpagemax=100
@@ -17,3 +18,7 @@ set expandtab
 set backspace=start,indent
 set noerrorbells visualbell t_vb=
 
+inoremap {      {}<Left>
+inoremap {<CR>  {<CR>}<Esc>O
+inoremap {{     {
+inoremap {}     {}
